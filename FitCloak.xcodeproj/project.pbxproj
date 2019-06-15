@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F288D922B4DD0500D2AC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288D822B4DD0500D2AC32 /* AppDelegate.swift */; };
+		46F288DB22B4DD0500D2AC32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288DA22B4DD0500D2AC32 /* ViewController.swift */; };
+		46F288DE22B4DD0500D2AC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F288DC22B4DD0500D2AC32 /* Main.storyboard */; };
+		46F288E022B4DD0700D2AC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F288DF22B4DD0700D2AC32 /* Assets.xcassets */; };
+		46F288E322B4DD0700D2AC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F288E122B4DD0700D2AC32 /* LaunchScreen.storyboard */; };
+		46F288EE22B4DD0700D2AC32 /* FitCloakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288ED22B4DD0700D2AC32 /* FitCloakTests.swift */; };
+		46F288F922B4DD0700D2AC32 /* FitCloakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288F822B4DD0700D2AC32 /* FitCloakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F288EA22B4DD0700D2AC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F288CD22B4DD0500D2AC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F288D422B4DD0500D2AC32;
+			remoteInfo = FitCloak;
+		};
+		46F288F522B4DD0700D2AC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F288CD22B4DD0500D2AC32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F288D422B4DD0500D2AC32;
+			remoteInfo = FitCloak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F288D522B4DD0500D2AC32 /* FitCloak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCloak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F288D822B4DD0500D2AC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F288DA22B4DD0500D2AC32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46F288DD22B4DD0500D2AC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F288DF22B4DD0700D2AC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F288E222B4DD0700D2AC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46F288E422B4DD0700D2AC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F288E922B4DD0700D2AC32 /* FitCloakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCloakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F288ED22B4DD0700D2AC32 /* FitCloakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloakTests.swift; sourceTree = "<group>"; };
+		46F288EF22B4DD0700D2AC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F288F422B4DD0700D2AC32 /* FitCloakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCloakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F288F822B4DD0700D2AC32 /* FitCloakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloakUITests.swift; sourceTree = "<group>"; };
+		46F288FA22B4DD0700D2AC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F288D222B4DD0500D2AC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F288E622B4DD0700D2AC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F288F122B4DD0700D2AC32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F288CC22B4DD0500D2AC32 = {
+			isa = PBXGroup;
+			children = (
+				46F288D722B4DD0500D2AC32 /* FitCloak */,
+				46F288EC22B4DD0700D2AC32 /* FitCloakTests */,
+				46F288F722B4DD0700D2AC32 /* FitCloakUITests */,
+				46F288D622B4DD0500D2AC32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F288D622B4DD0500D2AC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F288D522B4DD0500D2AC32 /* FitCloak.app */,
+				46F288E922B4DD0700D2AC32 /* FitCloakTests.xctest */,
+				46F288F422B4DD0700D2AC32 /* FitCloakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F288D722B4DD0500D2AC32 /* FitCloak */ = {
+			isa = PBXGroup;
+			children = (
+				46F288D822B4DD0500D2AC32 /* AppDelegate.swift */,
+				46F288DA22B4DD0500D2AC32 /* ViewController.swift */,
+				46F288DC22B4DD0500D2AC32 /* Main.storyboard */,
+				46F288DF22B4DD0700D2AC32 /* Assets.xcassets */,
+				46F288E122B4DD0700D2AC32 /* LaunchScreen.storyboard */,
+				46F288E422B4DD0700D2AC32 /* Info.plist */,
+			);
+			path = FitCloak;
+			sourceTree = "<group>";
+		};
+		46F288EC22B4DD0700D2AC32 /* FitCloakTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F288ED22B4DD0700D2AC32 /* FitCloakTests.swift */,
+				46F288EF22B4DD0700D2AC32 /* Info.plist */,
+			);
+			path = FitCloakTests;
+			sourceTree = "<group>";
+		};
+		46F288F722B4DD0700D2AC32 /* FitCloakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F288F822B4DD0700D2AC32 /* FitCloakUITests.swift */,
+				46F288FA22B4DD0700D2AC32 /* Info.plist */,
+			);
+			path = FitCloakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F288D422B4DD0500D2AC32 /* FitCloak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F288FD22B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloak" */;
+			buildPhases = (
+				46F288D122B4DD0500D2AC32 /* Sources */,
+				46F288D222B4DD0500D2AC32 /* Frameworks */,
+				46F288D322B4DD0500D2AC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitCloak;
+			productName = FitCloak;
+			productReference = 46F288D522B4DD0500D2AC32 /* FitCloak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F288E822B4DD0700D2AC32 /* FitCloakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F2890022B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloakTests" */;
+			buildPhases = (
+				46F288E522B4DD0700D2AC32 /* Sources */,
+				46F288E622B4DD0700D2AC32 /* Frameworks */,
+				46F288E722B4DD0700D2AC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F288EB22B4DD0700D2AC32 /* PBXTargetDependency */,
+			);
+			name = FitCloakTests;
+			productName = FitCloakTests;
+			productReference = 46F288E922B4DD0700D2AC32 /* FitCloakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F288F322B4DD0700D2AC32 /* FitCloakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F2890322B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloakUITests" */;
+			buildPhases = (
+				46F288F022B4DD0700D2AC32 /* Sources */,
+				46F288F122B4DD0700D2AC32 /* Frameworks */,
+				46F288F222B4DD0700D2AC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F288F622B4DD0700D2AC32 /* PBXTargetDependency */,
+			);
+			name = FitCloakUITests;
+			productName = FitCloakUITests;
+			productReference = 46F288F422B4DD0700D2AC32 /* FitCloakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F288CD22B4DD0500D2AC32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					46F288D422B4DD0500D2AC32 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					46F288E822B4DD0700D2AC32 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 46F288D422B4DD0500D2AC32;
+					};
+					46F288F322B4DD0700D2AC32 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 46F288D422B4DD0500D2AC32;
+					};
+				};
+			};
+			buildConfigurationList = 46F288D022B4DD0500D2AC32 /* Build configuration list for PBXProject "FitCloak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F288CC22B4DD0500D2AC32;
+			productRefGroup = 46F288D622B4DD0500D2AC32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F288D422B4DD0500D2AC32 /* FitCloak */,
+				46F288E822B4DD0700D2AC32 /* FitCloakTests */,
+				46F288F322B4DD0700D2AC32 /* FitCloakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F288D322B4DD0500D2AC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F288E322B4DD0700D2AC32 /* LaunchScreen.storyboard in Resources */,
+				46F288E022B4DD0700D2AC32 /* Assets.xcassets in Resources */,
+				46F288DE22B4DD0500D2AC32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F288E722B4DD0700D2AC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F288F222B4DD0700D2AC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F288D122B4DD0500D2AC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F288DB22B4DD0500D2AC32 /* ViewController.swift in Sources */,
+				46F288D922B4DD0500D2AC32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F288E522B4DD0700D2AC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F288EE22B4DD0700D2AC32 /* FitCloakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F288F022B4DD0700D2AC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F288F922B4DD0700D2AC32 /* FitCloakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F288EB22B4DD0700D2AC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F288D422B4DD0500D2AC32 /* FitCloak */;
+			targetProxy = 46F288EA22B4DD0700D2AC32 /* PBXContainerItemProxy */;
+		};
+		46F288F622B4DD0700D2AC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F288D422B4DD0500D2AC32 /* FitCloak */;
+			targetProxy = 46F288F522B4DD0700D2AC32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F288DC22B4DD0500D2AC32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F288DD22B4DD0500D2AC32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F288E122B4DD0700D2AC32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F288E222B4DD0700D2AC32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F288FB22B4DD0700D2AC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46F288FC22B4DD0700D2AC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F288FE22B4DD0700D2AC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N22A45DZ9C;
+				INFOPLIST_FILE = FitCloak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mitolab.FitCloak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46F288FF22B4DD0700D2AC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N22A45DZ9C;
+				INFOPLIST_FILE = FitCloak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mitolab.FitCloak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46F2890122B4DD0700D2AC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N22A45DZ9C;
+				INFOPLIST_FILE = FitCloakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mitolab.FitCloakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitCloak.app/FitCloak";
+			};
+			name = Debug;
+		};
+		46F2890222B4DD0700D2AC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N22A45DZ9C;
+				INFOPLIST_FILE = FitCloakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mitolab.FitCloakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitCloak.app/FitCloak";
+			};
+			name = Release;
+		};
+		46F2890422B4DD0700D2AC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N22A45DZ9C;
+				INFOPLIST_FILE = FitCloakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mitolab.FitCloakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitCloak;
+			};
+			name = Debug;
+		};
+		46F2890522B4DD0700D2AC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N22A45DZ9C;
+				INFOPLIST_FILE = FitCloakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mitolab.FitCloakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitCloak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F288D022B4DD0500D2AC32 /* Build configuration list for PBXProject "FitCloak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F288FB22B4DD0700D2AC32 /* Debug */,
+				46F288FC22B4DD0700D2AC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F288FD22B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F288FE22B4DD0700D2AC32 /* Debug */,
+				46F288FF22B4DD0700D2AC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F2890022B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F2890122B4DD0700D2AC32 /* Debug */,
+				46F2890222B4DD0700D2AC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F2890322B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F2890422B4DD0700D2AC32 /* Debug */,
+				46F2890522B4DD0700D2AC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F288CD22B4DD0500D2AC32 /* Project object */;
+}
