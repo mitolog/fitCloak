@@ -11,6 +11,8 @@
 		4651232C22B55CAA0093C27D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651232B22B55CAA0093C27D /* SearchViewController.swift */; };
 		4651232E22B55CF40093C27D /* GymItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 4651232D22B55CF40093C27D /* GymItems.json */; };
 		4651233022B561A00093C27D /* GymItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651232F22B561A00093C27D /* GymItem.swift */; };
+		4651233222B5E4720093C27D /* SwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4651233122B5E4720093C27D /* SwiftForms.framework */; };
+		4651233522B5E6C90093C27D /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651233422B5E6C90093C27D /* OrderViewController.swift */; };
 		46F288D922B4DD0500D2AC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288D822B4DD0500D2AC32 /* AppDelegate.swift */; };
 		46F288DB22B4DD0500D2AC32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288DA22B4DD0500D2AC32 /* ViewController.swift */; };
 		46F288DE22B4DD0500D2AC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F288DC22B4DD0500D2AC32 /* Main.storyboard */; };
@@ -55,6 +57,8 @@
 		4651232B22B55CAA0093C27D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4651232D22B55CF40093C27D /* GymItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GymItems.json; sourceTree = "<group>"; };
 		4651232F22B561A00093C27D /* GymItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymItem.swift; sourceTree = "<group>"; };
+		4651233122B5E4720093C27D /* SwiftForms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftForms.framework; path = Carthage/Build/iOS/SwiftForms.framework; sourceTree = "<group>"; };
+		4651233422B5E6C90093C27D /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		46F288D522B4DD0500D2AC32 /* FitCloak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCloak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F288D822B4DD0500D2AC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F288DA22B4DD0500D2AC32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4651233222B5E4720093C27D /* SwiftForms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +222,7 @@
 				46F2890A22B4E81C00D2AC32 /* CloakViewController.swift */,
 				46F2891E22B52DDA00D2AC32 /* MypageViewController.swift */,
 				4651232B22B55CAA0093C27D /* SearchViewController.swift */,
+				4651233422B5E6C90093C27D /* OrderViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 		E16C9D5E4F995008971734B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4651233122B5E4720093C27D /* SwiftForms.framework */,
 				E48276BBA06D665DB841D885 /* Pods_FitCloak.framework */,
 				7BF511D625E176EE0B87BEFA /* Pods_FitCloakTests.framework */,
 				48BAF18CBDA1E74B29506A7E /* Pods_FitCloakUITests.framework */,
@@ -241,6 +248,7 @@
 				46F288D122B4DD0500D2AC32 /* Sources */,
 				46F288D222B4DD0500D2AC32 /* Frameworks */,
 				46F288D322B4DD0500D2AC32 /* Resources */,
+				4651233322B5E4920093C27D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -397,6 +405,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4651233322B5E4920093C27D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftForms.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -412,6 +438,7 @@
 				46F2890B22B4E81C00D2AC32 /* CloakViewController.swift in Sources */,
 				46F2890E22B4F1B500D2AC32 /* UIColorExtension.swift in Sources */,
 				46F2891A22B4FF0500D2AC32 /* CellBindableType.swift in Sources */,
+				4651233522B5E6C90093C27D /* OrderViewController.swift in Sources */,
 				46F2891622B4F84B00D2AC32 /* Util.swift in Sources */,
 				46F2891022B4F48D00D2AC32 /* ItemCollectionViewCell.swift in Sources */,
 				46F2892722B5507E00D2AC32 /* BindableTableViewCell.swift in Sources */,
@@ -598,6 +625,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N22A45DZ9C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FitCloak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,6 +647,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N22A45DZ9C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FitCloak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

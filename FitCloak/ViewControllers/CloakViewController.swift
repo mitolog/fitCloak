@@ -26,6 +26,17 @@ class CloakViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+
+    @IBAction func deliverBtnTapped(_ sender: Any) {
+
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let orderVc = sb.instantiateViewController(withIdentifier: "OrderViewController")
+        //self.present(vc, animated: true, completion: nil)
+
+        let navCon = UINavigationController(rootViewController: orderVc)
+        self.navigationController?.present(navCon, animated: true, completion: nil)
+    }
+
     private func setupView() {
 
         // collectionview cell settings

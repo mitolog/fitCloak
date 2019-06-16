@@ -72,6 +72,7 @@ extension SearchViewController: MKMapViewDelegate {
 
         if annotationView == nil {
             annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+            (annotationView as! MKMarkerAnnotationView).glyphImage = UIImage(named: "gymPin")
             annotationView!.canShowCallout = true
         } else {
             annotationView!.annotation = annotation
