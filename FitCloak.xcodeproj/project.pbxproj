@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45F2C957DA345C7F27DBFE3A /* Pods_FitCloakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF511D625E176EE0B87BEFA /* Pods_FitCloakTests.framework */; };
+		4651232C22B55CAA0093C27D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651232B22B55CAA0093C27D /* SearchViewController.swift */; };
+		4651232E22B55CF40093C27D /* GymItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 4651232D22B55CF40093C27D /* GymItems.json */; };
+		4651233022B561A00093C27D /* GymItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651232F22B561A00093C27D /* GymItem.swift */; };
 		46F288D922B4DD0500D2AC32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288D822B4DD0500D2AC32 /* AppDelegate.swift */; };
 		46F288DB22B4DD0500D2AC32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288DA22B4DD0500D2AC32 /* ViewController.swift */; };
 		46F288DE22B4DD0500D2AC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F288DC22B4DD0500D2AC32 /* Main.storyboard */; };
@@ -14,6 +18,20 @@
 		46F288E322B4DD0700D2AC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F288E122B4DD0700D2AC32 /* LaunchScreen.storyboard */; };
 		46F288EE22B4DD0700D2AC32 /* FitCloakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288ED22B4DD0700D2AC32 /* FitCloakTests.swift */; };
 		46F288F922B4DD0700D2AC32 /* FitCloakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F288F822B4DD0700D2AC32 /* FitCloakUITests.swift */; };
+		46F2890922B4E2B500D2AC32 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2890822B4E2B500D2AC32 /* MainTabBarController.swift */; };
+		46F2890B22B4E81C00D2AC32 /* CloakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2890A22B4E81C00D2AC32 /* CloakViewController.swift */; };
+		46F2890E22B4F1B500D2AC32 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2890D22B4F1B500D2AC32 /* UIColorExtension.swift */; };
+		46F2891022B4F48D00D2AC32 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2890F22B4F48D00D2AC32 /* ItemCollectionViewCell.swift */; };
+		46F2891222B4F62500D2AC32 /* CloakItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 46F2891122B4F62500D2AC32 /* CloakItems.json */; };
+		46F2891422B4F7CE00D2AC32 /* CloakItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2891322B4F7CE00D2AC32 /* CloakItem.swift */; };
+		46F2891622B4F84B00D2AC32 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2891522B4F84B00D2AC32 /* Util.swift */; };
+		46F2891822B4FEE000D2AC32 /* BindableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2891722B4FEE000D2AC32 /* BindableCollectionViewCell.swift */; };
+		46F2891A22B4FF0500D2AC32 /* CellBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2891922B4FF0500D2AC32 /* CellBindableType.swift */; };
+		46F2891F22B52DDA00D2AC32 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2891E22B52DDA00D2AC32 /* MypageViewController.swift */; };
+		46F2892222B54DC100D2AC32 /* MyPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2892122B54DC100D2AC32 /* MyPageTableViewCell.swift */; };
+		46F2892422B54E3200D2AC32 /* MyPageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2892322B54E3200D2AC32 /* MyPageItem.swift */; };
+		46F2892722B5507E00D2AC32 /* BindableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F2892622B5507E00D2AC32 /* BindableTableViewCell.swift */; };
+		E60AB3A2364FD40F6D1BD7C2 /* Pods_FitCloakUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BAF18CBDA1E74B29506A7E /* Pods_FitCloakUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4651232B22B55CAA0093C27D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4651232D22B55CF40093C27D /* GymItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GymItems.json; sourceTree = "<group>"; };
+		4651232F22B561A00093C27D /* GymItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymItem.swift; sourceTree = "<group>"; };
 		46F288D522B4DD0500D2AC32 /* FitCloak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCloak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F288D822B4DD0500D2AC32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F288DA22B4DD0500D2AC32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,22 @@
 		46F288F422B4DD0700D2AC32 /* FitCloakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitCloakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F288F822B4DD0700D2AC32 /* FitCloakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitCloakUITests.swift; sourceTree = "<group>"; };
 		46F288FA22B4DD0700D2AC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F2890822B4E2B500D2AC32 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		46F2890A22B4E81C00D2AC32 /* CloakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloakViewController.swift; sourceTree = "<group>"; };
+		46F2890D22B4F1B500D2AC32 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		46F2890F22B4F48D00D2AC32 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		46F2891122B4F62500D2AC32 /* CloakItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CloakItems.json; sourceTree = "<group>"; };
+		46F2891322B4F7CE00D2AC32 /* CloakItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloakItem.swift; sourceTree = "<group>"; };
+		46F2891522B4F84B00D2AC32 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		46F2891722B4FEE000D2AC32 /* BindableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableCollectionViewCell.swift; sourceTree = "<group>"; };
+		46F2891922B4FF0500D2AC32 /* CellBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBindableType.swift; sourceTree = "<group>"; };
+		46F2891E22B52DDA00D2AC32 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		46F2892122B54DC100D2AC32 /* MyPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTableViewCell.swift; sourceTree = "<group>"; };
+		46F2892322B54E3200D2AC32 /* MyPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageItem.swift; sourceTree = "<group>"; };
+		46F2892622B5507E00D2AC32 /* BindableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableTableViewCell.swift; sourceTree = "<group>"; };
+		48BAF18CBDA1E74B29506A7E /* Pods_FitCloakUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloakUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF511D625E176EE0B87BEFA /* Pods_FitCloakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48276BBA06D665DB841D885 /* Pods_FitCloak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F2C957DA345C7F27DBFE3A /* Pods_FitCloakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60AB3A2364FD40F6D1BD7C2 /* Pods_FitCloakUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,7 @@
 				46F288EC22B4DD0700D2AC32 /* FitCloakTests */,
 				46F288F722B4DD0700D2AC32 /* FitCloakUITests */,
 				46F288D622B4DD0500D2AC32 /* Products */,
+				E16C9D5E4F995008971734B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +137,16 @@
 		46F288D722B4DD0500D2AC32 /* FitCloak */ = {
 			isa = PBXGroup;
 			children = (
+				46F2892522B54F5C00D2AC32 /* ViewControllers */,
+				46F2891D22B4FF5300D2AC32 /* Views */,
+				46F2891C22B4FF3C00D2AC32 /* Models */,
+				46F2891B22B4FF2000D2AC32 /* Util */,
+				46F2890C22B4F1A700D2AC32 /* Extensions */,
 				46F288D822B4DD0500D2AC32 /* AppDelegate.swift */,
 				46F288DA22B4DD0500D2AC32 /* ViewController.swift */,
 				46F288DC22B4DD0500D2AC32 /* Main.storyboard */,
-				46F288DF22B4DD0700D2AC32 /* Assets.xcassets */,
 				46F288E122B4DD0700D2AC32 /* LaunchScreen.storyboard */,
+				46F288DF22B4DD0700D2AC32 /* Assets.xcassets */,
 				46F288E422B4DD0700D2AC32 /* Info.plist */,
 			);
 			path = FitCloak;
@@ -123,6 +168,67 @@
 				46F288FA22B4DD0700D2AC32 /* Info.plist */,
 			);
 			path = FitCloakUITests;
+			sourceTree = "<group>";
+		};
+		46F2890C22B4F1A700D2AC32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46F2890D22B4F1B500D2AC32 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46F2891B22B4FF2000D2AC32 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				46F2891522B4F84B00D2AC32 /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		46F2891C22B4FF3C00D2AC32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46F2891322B4F7CE00D2AC32 /* CloakItem.swift */,
+				46F2892322B54E3200D2AC32 /* MyPageItem.swift */,
+				4651232F22B561A00093C27D /* GymItem.swift */,
+				46F2891122B4F62500D2AC32 /* CloakItems.json */,
+				4651232D22B55CF40093C27D /* GymItems.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46F2891D22B4FF5300D2AC32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F2890F22B4F48D00D2AC32 /* ItemCollectionViewCell.swift */,
+				46F2891722B4FEE000D2AC32 /* BindableCollectionViewCell.swift */,
+				46F2892622B5507E00D2AC32 /* BindableTableViewCell.swift */,
+				46F2891922B4FF0500D2AC32 /* CellBindableType.swift */,
+				46F2892122B54DC100D2AC32 /* MyPageTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46F2892522B54F5C00D2AC32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46F2890822B4E2B500D2AC32 /* MainTabBarController.swift */,
+				46F2890A22B4E81C00D2AC32 /* CloakViewController.swift */,
+				46F2891E22B52DDA00D2AC32 /* MypageViewController.swift */,
+				4651232B22B55CAA0093C27D /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E16C9D5E4F995008971734B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E48276BBA06D665DB841D885 /* Pods_FitCloak.framework */,
+				7BF511D625E176EE0B87BEFA /* Pods_FitCloakTests.framework */,
+				48BAF18CBDA1E74B29506A7E /* Pods_FitCloakUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46F2890022B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloakTests" */;
 			buildPhases = (
+				07F7E6A3123E2EE48EDF67E3 /* [CP] Check Pods Manifest.lock */,
 				46F288E522B4DD0700D2AC32 /* Sources */,
 				46F288E622B4DD0700D2AC32 /* Frameworks */,
 				46F288E722B4DD0700D2AC32 /* Resources */,
@@ -167,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46F2890322B4DD0700D2AC32 /* Build configuration list for PBXNativeTarget "FitCloakUITests" */;
 			buildPhases = (
+				42DE38DD6FEA6BA6781A63D6 /* [CP] Check Pods Manifest.lock */,
 				46F288F022B4DD0700D2AC32 /* Sources */,
 				46F288F122B4DD0700D2AC32 /* Frameworks */,
 				46F288F222B4DD0700D2AC32 /* Resources */,
@@ -228,6 +336,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4651232E22B55CF40093C27D /* GymItems.json in Resources */,
+				46F2891222B4F62500D2AC32 /* CloakItems.json in Resources */,
 				46F288E322B4DD0700D2AC32 /* LaunchScreen.storyboard in Resources */,
 				46F288E022B4DD0700D2AC32 /* Assets.xcassets in Resources */,
 				46F288DE22B4DD0500D2AC32 /* Main.storyboard in Resources */,
@@ -250,13 +360,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07F7E6A3123E2EE48EDF67E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitCloakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42DE38DD6FEA6BA6781A63D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitCloakUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46F288D122B4DD0500D2AC32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4651232C22B55CAA0093C27D /* SearchViewController.swift in Sources */,
+				46F2892422B54E3200D2AC32 /* MyPageItem.swift in Sources */,
+				46F2891822B4FEE000D2AC32 /* BindableCollectionViewCell.swift in Sources */,
 				46F288DB22B4DD0500D2AC32 /* ViewController.swift in Sources */,
+				4651233022B561A00093C27D /* GymItem.swift in Sources */,
+				46F2890B22B4E81C00D2AC32 /* CloakViewController.swift in Sources */,
+				46F2890E22B4F1B500D2AC32 /* UIColorExtension.swift in Sources */,
+				46F2891A22B4FF0500D2AC32 /* CellBindableType.swift in Sources */,
+				46F2891622B4F84B00D2AC32 /* Util.swift in Sources */,
+				46F2891022B4F48D00D2AC32 /* ItemCollectionViewCell.swift in Sources */,
+				46F2892722B5507E00D2AC32 /* BindableTableViewCell.swift in Sources */,
+				46F2891422B4F7CE00D2AC32 /* CloakItem.swift in Sources */,
 				46F288D922B4DD0500D2AC32 /* AppDelegate.swift in Sources */,
+				46F2890922B4E2B500D2AC32 /* MainTabBarController.swift in Sources */,
+				46F2892222B54DC100D2AC32 /* MyPageTableViewCell.swift in Sources */,
+				46F2891F22B52DDA00D2AC32 /* MypageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,13 +525,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -417,12 +581,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

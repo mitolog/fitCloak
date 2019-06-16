@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Elite Fitness Nguyễn Chí Thanh",
+        "address": "Tầng 6, Vincom Nguyễn Chí Thanh, 54 Nguyễn Chí Thanh, Quận Đống Đa, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 7307 8889",
+        "lat": 21.0221983,
+        "lng": 105.8085337
+    },
+    {
+        "id": 2,
+        "name": "Elite Fitness Xuân Thủy",
+        "address": "Tầng 4 Indochina Plaza 241 Xuân Thủy Hanoi Hà Nội 100000 VN, 241 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 3788 6688",
+        "lat": 21.0221945,
+        "lng": 105.7822688
+    },
+    {
+        "id": 3,
+        "name": "Elite Fitness Phạm Ngọc Thạch",
+        "address": "Vincom Center, Tầng 7, 2B Phạm Ngọc Thạch, Trung Tự, Đống Đa, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 7307 9898",
+        "lat": 21.0216512,
+        "lng": 105.7784415
+    },
+    {
+        "id": 4,
+        "name": "Elite Fitness Thăng Long",
+        "address": "Tầng 3, Toà A Thăng Long Number1, số 1 Đại Lộ Thăng Long, Nam Từ Liêm, Hanoi City, Thăng Long Number One, Từ Liêm, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 7306 6655",
+        "lat": 21.0024088,
+        "lng": 105.7899989
+    },
+    {
+        "id": 5,
+        "name": "Elite Fitness Hồ Gươm",
+        "address": "Tầng 5, TTTM Hồ Gươm Plaza, 110 Trần Phú, Hà Đông, Hà Nội, P. Mộ Lao, Hà Đông, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 7305 5858",
+        "lat": 21.0203623,
+        "lng": 105.7142579
+    },
+    {
+        "id": 6,
+        "name": "Elite Fitness Bà Triệu",
+        "address": "191 Bà Triệu, Lê Đại Hành, Hai Bà Trưng, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 3974 9191",
+        "lat": 21.0273011,
+        "lng": 105.7046143
+    },
+    {
+        "id": 7,
+        "name": "Elite Fitness Lý Thường Kiệt",
+        "address": "Tầng 8 Tòa nhà, Hồng Hà, 25 Lý Thường Kiệt, Phan Chu Trinh, Hoàn Kiếm, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 3828 8888",
+        "lat": 21.0267733,
+        "lng": 105.8270242
+    },
+    {
+        "id": 8,
+        "name": "Elite Fitness Long Biên",
+        "address": "Tầng 2, Tòa N03 Berriver Long Biên, số 390 Nguyễn Văn Cừ, Long Biên, Hà Nội, Bồ Đề, Long Biên, Hà Nội",
+        "opentime": "7:00am",
+        "closetime": "22:00pm",
+        "phone": "tel:+84 24 7302 6696",
+        "lat": 21.0447355,
+        "lng": 105.8751353
+    }
+]
